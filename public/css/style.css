@@ -33,3 +33,15 @@ a {
 #buttontext .visible content {
   text-align: center;
 }
+
+#picture1 { position: absolute; left: 20px; top: 300px;
+} 
+
+#picture2 { position: absolute; right: 20px; top: 300px;
+} 
+
+#picture3 { position: absolute; left: 20px; bottom: 300px;
+} 
+
+#picture4 { position: absolute; right: 20px; bottom: 300px;
+} 
