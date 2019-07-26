@@ -3,7 +3,8 @@
 }
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 40px "Georgia", Helvetica, Arial, sans-serif;
+  background-color: rgb(27,26,26);
 }
 
 a {
@@ -34,14 +35,86 @@ a {
   text-align: center;
 }
 
-#picture1 { position: absolute; left: 20px; top: 300px;
-} 
+iframe {
+  opacity: 0;
+}
 
-#picture2 { position: absolute; right: 20px; top: 300px;
-} 
+#picture1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
 
-#picture3 { position: absolute; left: 20px; bottom: 300px;
-} 
+#picture2 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
 
-#picture4 { position: absolute; right: 20px; bottom: 300px;
-} 
+#picture3 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+#picture4 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* @media (max-width: 600px) {
+  #picture1 {
+    width: 100px;
+    height: 100px;
+  }
+  #picture2 {
+    width: 100px;
+    height: 100px;
+  }
+  #picture3 {
+    width: 100px;
+    height: 100px;
+  }
+  #picture4 {
+    width: 100px;
+    height: 100px;
+  }
+} */
+
+#homepagebutton {
+  height: 150px;
+  width: 250px;
+  display: block; /* made it a block so we could align it*/
+  margin-right: auto;
+  margin-left: auto;
+  top: 500px;
+  
+  background-color: grey;
+  color: white
+  /* centers the button in the div*/
+ }
+ #buttontext {
+  display: table-cell; /* made it a table cell so we could align it*/
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1.8em;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 25px;
+
+ }
+ #buttontext .visible content {
+  text-align: center
+ }
+ #header h1 {
+  color: white;
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  top: 50px;
+  font-size: 90px;
+  
+}
+
+ 
+}
