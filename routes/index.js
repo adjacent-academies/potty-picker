@@ -5,7 +5,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get("/", function(req, res, next) {
-  res.render("index", { title: "Bathroom Mapper" });
+  res.render("index", { title: "Potty Picker" });
 });
 
 // homepagebutton.addEventListener("click", event => {

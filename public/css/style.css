@@ -16,7 +16,7 @@ a {
   display: block; /* made it a block so we could align it*/
   margin-right: auto;
   margin-left: auto;
-  background-color: darkblue;
+  background-color: grey;
   color: white
   /* centers the button in the div*/
 }
