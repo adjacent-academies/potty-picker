@@ -4,10 +4,8 @@ var router = express.Router();
 // const homepagebutton = document.querySelector("#homepagebutton");
 
 /* GET home page. */
-
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Potty Picker' });
-
+router.get("/", function(req, res, next) {
+  res.render("index");
 });
 
 // homepagebutton.addEventListener("click", event => {

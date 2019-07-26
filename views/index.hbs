@@ -1,36 +1,26 @@
 <head>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
-<h1>{{title}}</h1>
-<p>Welcome to My New {{title}} Site</p>
 <div class="container" id="outside">
-    <div class="ui animated button" id="homepagebutton">
-        <!–– animated button; button dimensions; css identifier for button ––>
-        <div class="visible content" id="buttontext" onclick="toLists()" >Need a bathroom? </div>
-        <div class="hidden content"> You're in the right place!</div>
-        
-          
-    </div> 
-    <button>
-            "Hiiiiii"
-        </button>
+    
 </div>
 
 
 
-<body>
-    <div id="picture1">
-        <img src= img/picture1.gif width="350px" height="260px" />
-    </div>
-    <div id="picture2">
-        <img src= img/picture2.gif width="350px" height="260px" />
-    </div>
-    <div id="picture3">
-        <img src= img/picture3.gif width="350px" height="260px" />
-    </div>
-    <div id="picture4">
-        <img src= img/picture4.gif width="350px" height="260px" />
-    </div>
+ <div class="container" id="outside">
+   <div class="ui animated button" id="homepagebutton">
+       {{!-- animated button; button dimensions; css identifier for button --}}
+       <div class="visible content" id="buttontext" onclick="window.location.href = 'http://localhost:3000/list';" >Need a bathroom? </div>
+       <div class="hidden content" id="secondbuttontext" onclick="window.location.href = 'http://localhost:3000/list';"> You're in the right place!</div>
+   </div>
+</div>
+<div id="header">
+    <h1>The <br> Potty Picker</h1>
+  </div> 
+<img id="picture1" src="/img/picture1.gif" width="450px" height="340px" />
+<img id="picture2" src="/img/picture2.gif" width="450px" height="340px" />
 
-</body>
+<img id="picture3" src="/img/picture3.gif" width="450px" height="340px" />
+<img id="picture4" src="/img/picture4.gif" width="450px" height="340px" />
+
 
