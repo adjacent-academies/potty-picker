@@ -1,10 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET List page. */
+/* GET map page. */
 router.get('/', function(req, res, next) {
-  res.render('list', { title: 'List View for the Bathroom Mapper' });
+  res.render('maporlando');
 });
 
 module.exports = router;
-

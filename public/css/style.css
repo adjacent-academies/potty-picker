@@ -36,7 +36,8 @@ a {
 }
 
 iframe {
-  opacity: 0;
+  opacity: 100;
+  align-content: middle;
 }
 
 #picture1 {
@@ -117,4 +118,3 @@ iframe {
 }
 
  
-}

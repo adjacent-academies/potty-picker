@@ -8,6 +8,8 @@ router.get("/", function(req, res, next) {
   res.render("index");
 });
 
+
+
 // homepagebutton.addEventListener("click", event => {
 //   window.location.href = "www.google.com";
 // });
