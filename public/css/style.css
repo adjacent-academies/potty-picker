@@ -1,8 +1,35 @@
+#outisde {
+  text-align: center; /* centers text in the container*/
+}
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+#homepagebutton {
+  height: 50px;
+  width: 175px;
+  display: block; /* made it a block so we could align it*/
+  margin-right: auto;
+  margin-left: auto;
+  background-color: darkblue;
+  color: white
+  /* centers the button in the div*/
+}
+
+#buttontext {
+  display: table-cell; /* made it a table cell so we could align it*/
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1.8em;
+  margin-left: 100px;
+  margin-right: 1px;
+}
+
+#buttontext .visible content {
+  text-align: center;
 }
