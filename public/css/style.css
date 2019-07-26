@@ -4,7 +4,7 @@
 body {
   padding: 50px;
   font: 40px "Georgia", Helvetica, Arial, sans-serif;
-  background-color: rgb(27,26,26);
+  background-color: rgb(27, 26, 26);
 }
 
 a {
@@ -18,7 +18,7 @@ a {
   margin-right: auto;
   margin-left: auto;
   background-color: grey;
-  color: white
+  color: white;
   /* centers the button in the div*/
 }
 
@@ -38,6 +38,11 @@ a {
 iframe {
   opacity: 100;
   align-content: middle;
+}
+iframe{
+  align-content: middle;
+  opacity: 100;
+
 }
 
 #picture1 {
@@ -90,12 +95,12 @@ iframe {
   margin-right: auto;
   margin-left: auto;
   top: 500px;
-  
+
   background-color: grey;
-  color: white
+  color: white;
   /* centers the button in the div*/
- }
- #buttontext {
+}
+#buttontext {
   display: table-cell; /* made it a table cell so we could align it*/
   vertical-align: middle;
   text-align: center;
@@ -103,18 +108,14 @@ iframe {
   margin-left: 100px;
   margin-right: 100px;
   font-size: 25px;
-
- }
- #buttontext .visible content {
-  text-align: center
- }
- #header h1 {
+}
+#buttontext .visible content {
+  text-align: center;
+}
+#header h1 {
   color: white;
   font-family: "Great Vibes", cursive;
   text-align: center;
   top: 50px;
   font-size: 90px;
-  
 }
-
- 
